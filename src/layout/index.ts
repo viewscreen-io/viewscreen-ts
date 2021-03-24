@@ -14,8 +14,10 @@ export type OneColumnBlock = {
 
 export type TwoColumnBlock = {
   type: 'two-column';
-  one: Section;
-  two: Section;
+  sections: {
+    one: Section;
+    two: Section;
+  };
 };
 
 export type ThreeColumnBlock = {
