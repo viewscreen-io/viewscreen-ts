@@ -1,16 +1,16 @@
 import { Component } from '../components';
 import { Block } from '../layout';
 
-export type Page = {
+export type Page<C = Component, B = Block> = {
   id?: string;
   projectId?: string;
   name?: string;
   props: {
     components: {
-      [name: string]: Component;
+      [name: string]: C;
     };
     layout?: {
-      blocks: Block[];
+      blocks: B[];
     };
   };
   createdAt?: string;
