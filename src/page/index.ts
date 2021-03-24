@@ -1,19 +1,5 @@
-import {
-  Button,
-  Checkbox,
-  Heading,
-  Input,
-  Markdown,
-  NumberInput,
-  RadioGroup,
-  Select,
-} from '../components';
-import {
-  OneColumnBlock,
-  TwoColumnBlock,
-  ThreeColumnBlock,
-  FourColumnBlock,
-} from '../layout';
+import { Component } from '../components';
+import { Block } from '../layout';
 
 export type Page = {
   id?: string;
@@ -21,23 +7,10 @@ export type Page = {
   name?: string;
   props: {
     components: {
-      [name: string]:
-        | Button
-        | Checkbox
-        | Heading
-        | Input
-        | Markdown
-        | NumberInput
-        | RadioGroup
-        | Select;
+      [name: string]: Component;
     };
     layout?: {
-      blocks: (
-        | OneColumnBlock
-        | TwoColumnBlock
-        | ThreeColumnBlock
-        | FourColumnBlock
-      )[];
+      blocks: Block[];
     };
   };
   createdAt?: string;

@@ -38,3 +38,9 @@ export type FourColumnBlock = {
     four: Section;
   };
 };
+
+export type Block =
+  | OneColumnBlock
+  | TwoColumnBlock
+  | ThreeColumnBlock
+  | FourColumnBlock;
