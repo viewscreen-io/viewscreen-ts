@@ -14,4 +14,5 @@ export {
   TwoColumnBlock,
   ThreeColumnBlock,
   FourColumnBlock,
+  Block,
 } from './src/layout';
