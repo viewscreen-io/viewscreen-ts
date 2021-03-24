@@ -1,22 +1,18 @@
 import { Component } from '../components';
 import { Block } from '../layout';
 
-type Components = {
-  [name: string]: Component;
-};
-
-type Layout = {
-  blocks: Block[];
-};
-
-export type Page<C = Components, L = Layout> = {
+export interface Page {
   id?: string;
   projectId?: string;
   name?: string;
   props: {
-    components: C;
-    layout?: L;
+    components: {
+      [id: string]: Component;
+    };
+    layout?: {
+      blocks: Block[];
+    };
   };
   createdAt?: string;
   updatedAt?: string;
-};
+}
