@@ -6,6 +6,8 @@ export { Markdown } from './markdown';
 export { NumberInput } from './number_input';
 export { RadioGroup } from './radio_group';
 export { Select } from './select';
+export { TextArea } from './text_area';
+export { Table } from './table';
 
 import { Button } from './button';
 import { Checkbox } from './checkbox';
@@ -15,6 +17,8 @@ import { Markdown } from './markdown';
 import { NumberInput } from './number_input';
 import { RadioGroup } from './radio_group';
 import { Select } from './select';
+import { TextArea } from './text_area';
+import { Table } from './table';
 
 export type Component =
   | Button
@@ -24,4 +28,6 @@ export type Component =
   | Markdown
   | NumberInput
   | RadioGroup
-  | Select;
+  | Select
+  | TextArea
+  | Table;
