@@ -11,6 +11,8 @@ export type { Select } from './src/components/select';
 export type { TextArea } from './src/components/text_area';
 export type { Table } from './src/components/table';
 
+export type { Component } from './src/components';
+
 export type {
   OneColumnBlock,
   TwoColumnBlock,
