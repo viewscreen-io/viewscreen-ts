@@ -1,5 +1,5 @@
-import { Component } from '../components';
-import { Block } from '../layout';
+import type { Component } from '../components';
+import type { Block } from '../layout';
 
 export interface Page {
   id?: string;
