@@ -10,6 +10,7 @@ export type { RadioGroup } from './src/components/radio_group';
 export type { Select } from './src/components/select';
 export type { TextArea } from './src/components/text_area';
 export type { Table } from './src/components/table';
+export type { Divider } from './src/components/divider';
 
 export type { Component } from './src/components';
 
