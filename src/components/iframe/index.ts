@@ -1,4 +1,4 @@
-export type iFrame = {
+export type IFrame = {
   type: 'iframe';
   props: {
     src: string;

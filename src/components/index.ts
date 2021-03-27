@@ -9,7 +9,7 @@ import type { Select } from './select';
 import type { TextArea } from './text_area';
 import type { Table } from './table';
 import type { Divider } from './divider';
-import type { iFrame } from './iframe';
+import type { IFrame } from './iframe';
 import type { Image } from './image';
 
 export type Component =
@@ -24,5 +24,5 @@ export type Component =
   | TextArea
   | Table
   | Divider
-  | iFrame
+  | IFrame
   | Image;
