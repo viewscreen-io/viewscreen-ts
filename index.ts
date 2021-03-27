@@ -12,6 +12,7 @@ export type { TextArea } from './src/components/text_area';
 export type { Table } from './src/components/table';
 export type { Divider } from './src/components/divider';
 export type { iFrame } from './src/components/iframe';
+export type { Image } from './src/components/image';
 
 export type { Component } from './src/components';
 

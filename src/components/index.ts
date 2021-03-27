@@ -10,6 +10,7 @@ import type { TextArea } from './text_area';
 import type { Table } from './table';
 import type { Divider } from './divider';
 import type { iFrame } from './iframe';
+import type { Image } from './image';
 
 export type Component =
   | Button
@@ -23,4 +24,5 @@ export type Component =
   | TextArea
   | Table
   | Divider
-  | iFrame;
+  | iFrame
+  | Image;
