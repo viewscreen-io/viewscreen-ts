@@ -3,9 +3,18 @@ export type iFrame = {
   props: {
     src: string;
     srcdoc?: string;
-    allowFullscreen?: boolean;
+    allowFullScreen?: boolean;
     sandbox?: string;
-    referrerPolicy?: string;
+    referrerPolicy?:
+      | ''
+      | 'no-referrer'
+      | 'no-referrer-when-downgrade'
+      | 'origin'
+      | 'origin-when-cross-origin'
+      | 'same-origin'
+      | 'strict-origin'
+      | 'strict-origin-when-cross-origin'
+      | 'unsafe-url';
     allowPaymentRequest?: boolean;
     name?: string;
     width?: number;
