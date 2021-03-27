@@ -2,7 +2,7 @@ export type IFrame = {
   type: 'iframe';
   props: {
     src: string;
-    srcdoc?: string;
+    srcDoc?: string;
     title?: string;
     allow?: string;
     allowFullScreen?: boolean;
