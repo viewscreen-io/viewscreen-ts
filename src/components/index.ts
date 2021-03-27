@@ -9,6 +9,7 @@ import type { Select } from './select';
 import type { TextArea } from './text_area';
 import type { Table } from './table';
 import type { Divider } from './divider';
+import type { iFrame } from './iframe';
 
 export type Component =
   | Button
@@ -21,4 +22,5 @@ export type Component =
   | Select
   | TextArea
   | Table
-  | Divider;
+  | Divider
+  | iFrame;

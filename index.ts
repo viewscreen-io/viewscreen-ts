@@ -11,6 +11,7 @@ export type { Select } from './src/components/select';
 export type { TextArea } from './src/components/text_area';
 export type { Table } from './src/components/table';
 export type { Divider } from './src/components/divider';
+export type { iFrame } from './src/components/iframe';
 
 export type { Component } from './src/components';
 
