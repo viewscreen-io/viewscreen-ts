@@ -3,6 +3,8 @@ export type IFrame = {
   props: {
     src: string;
     srcdoc?: string;
+    title?: string;
+    allow?: string;
     allowFullScreen?: boolean;
     sandbox?: string;
     referrerPolicy?:
