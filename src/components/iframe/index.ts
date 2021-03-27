@@ -15,7 +15,6 @@ export type iFrame = {
       | 'strict-origin'
       | 'strict-origin-when-cross-origin'
       | 'unsafe-url';
-    allowPaymentRequest?: boolean;
     name?: string;
     width?: number;
     height?: number;
