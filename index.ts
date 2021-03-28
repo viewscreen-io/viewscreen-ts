@@ -13,6 +13,7 @@ export type { Table } from './src/components/table';
 export type { Divider } from './src/components/divider';
 export type { IFrame } from './src/components/iframe';
 export type { Image } from './src/components/image';
+export type { Upload } from './src/components/upload';
 
 export type { Component } from './src/components';
 

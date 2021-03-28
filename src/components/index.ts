@@ -11,6 +11,7 @@ import type { Table } from './table';
 import type { Divider } from './divider';
 import type { IFrame } from './iframe';
 import type { Image } from './image';
+import type { Upload } from './upload';
 
 export type Component =
   | Button
@@ -25,4 +26,5 @@ export type Component =
   | Table
   | Divider
   | IFrame
-  | Image;
+  | Image
+  | Upload;
