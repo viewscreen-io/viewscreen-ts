@@ -3,6 +3,7 @@ export type Image = {
   props: {
     src: string;
     href?: string;
+    target?: string;
     alt?: string;
     width?: number;
     height?: number;
