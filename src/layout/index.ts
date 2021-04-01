@@ -3,6 +3,7 @@ type Section<C extends string[]> = {
   vAlign?: 'top' | 'center' | 'bottom';
   components: C;
   flexGrow?: number;
+  maxWidth?: number;
 };
 
 export type OneColumnBlock<S1 extends string[] = string[]> = {
