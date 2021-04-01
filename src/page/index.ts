@@ -6,6 +6,9 @@ export interface Page {
   projectId?: string;
   name?: string;
   props: {
+    meta?: {
+      [key: string]: string;
+    };
     components: {
       [id: string]: Component;
     };
