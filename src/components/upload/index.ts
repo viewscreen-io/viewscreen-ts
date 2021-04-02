@@ -12,5 +12,6 @@ export type Upload = {
     data?: {
       [key: string]: string;
     };
+    triggerOn?: 'success'[];
   };
 };
