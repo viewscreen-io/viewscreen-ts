@@ -58,12 +58,10 @@ export type RowBlock = {
     columns: {
       components: {
         id: string;
-        background?: boolean;
         align?: 'left' | 'center' | 'right';
         vAlign?: 'top' | 'center' | 'bottom';
-        flexGrow?: number;
-        maxWidth?: number;
       }[];
+      background?: boolean;
       flexGrow?: number;
       maxWidth?: number;
     }[];
