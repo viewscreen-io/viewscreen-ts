@@ -1,6 +1,6 @@
 {
   "name": "viewscreen-ts",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Typescript types for viewscreen.io",
   "main": "index.ts",
   "repository": "https://github.com/viewscreen-io/viewscreen-ts",
