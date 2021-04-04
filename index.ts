@@ -22,5 +22,6 @@ export type {
   TwoColumnBlock,
   ThreeColumnBlock,
   FourColumnBlock,
+  RowBlock,
   Block,
 } from './src/layout';

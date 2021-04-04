@@ -52,8 +52,26 @@ export type FourColumnBlock<
   };
 };
 
+export type RowBlock = {
+  type: 'row';
+  props: {
+    columns: {
+      components: {
+        id: string;
+        background?: boolean;
+        align?: 'left' | 'center' | 'right';
+        vAlign?: 'top' | 'center' | 'bottom';
+        flexGrow?: number;
+        maxWidth?: number;
+      }[];
+      flexGrow?: number;
+    }[];
+  };
+};
+
 export type Block =
   | OneColumnBlock
   | TwoColumnBlock
   | ThreeColumnBlock
-  | FourColumnBlock;
+  | FourColumnBlock
+  | RowBlock;
