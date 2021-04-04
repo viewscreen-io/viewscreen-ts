@@ -65,6 +65,7 @@ export type RowBlock = {
         maxWidth?: number;
       }[];
       flexGrow?: number;
+      maxWidth?: number;
     }[];
   };
 };
