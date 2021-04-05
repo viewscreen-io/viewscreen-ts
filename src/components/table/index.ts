@@ -39,4 +39,5 @@ type DataColumn = {
   }[];
   format?: 'default' | 'markdown';
   align?: 'left' | 'right' | 'center';
+  imageBorderRadius?: number;
 };

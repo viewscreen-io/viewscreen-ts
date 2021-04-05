@@ -7,5 +7,6 @@ export type Image = {
     alt?: string;
     width?: number;
     height?: number;
+    borderRadius?: number;
   };
 };
